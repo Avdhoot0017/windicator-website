@@ -100,7 +100,39 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-gray-900 mb-3">10. Contact Us</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-3">10. Account Deletion</h2>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              You have the right to request deletion of your account and all associated personal data at any time.
+            </p>
+
+            <h3 className="font-semibold text-gray-800 mb-2">How to request account deletion:</h3>
+            <ul className="space-y-2 text-gray-600 mb-4">
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Send an email to <a href="mailto:support@krupaUdyog.com" className="hover:underline font-medium" style={{ color: "#FF8B3D" }}>support@krupaUdyog.com</a> with subject line <strong>"Account Deletion Request"</strong></span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Include your registered email address in the request</span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>We will process your request within <strong>7 business days</strong></span></li>
+            </ul>
+
+            <h3 className="font-semibold text-gray-800 mb-2">What gets deleted:</h3>
+            <ul className="space-y-2 text-gray-600 mb-4">
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Your account and login credentials</span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Your personal information (name, email address)</span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Your app activity and session data</span></li>
+            </ul>
+
+            <h3 className="font-semibold text-gray-800 mb-2">What may be retained:</h3>
+            <ul className="space-y-2 text-gray-600 mb-4">
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Meter readings you recorded — these are business records owned by the company and may be retained for operational continuity</span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Records required by law or for legal compliance purposes</span></li>
+            </ul>
+
+            <div className="mt-4 p-5 rounded-xl border border-orange-100 bg-orange-50">
+              <p className="font-semibold text-gray-900 mb-1">To delete your account:</p>
+              <p className="text-gray-600 text-sm">Email us at <a href="mailto:support@krupaUdyog.com" className="font-medium hover:underline" style={{ color: "#FF8B3D" }}>support@krupaUdyog.com</a> with subject <strong>"Account Deletion Request"</strong> and your registered email. We'll confirm deletion within 7 business days.</p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold text-gray-900 mb-3">11. Contact Us</h2>
             <p className="text-gray-600 leading-relaxed">
               If you have any questions about this Privacy Policy or our data practices, please contact us at:
             </p>
