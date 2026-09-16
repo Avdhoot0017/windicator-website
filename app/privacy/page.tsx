@@ -1,16 +1,24 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Krupa Udyog",
+  description:
+    "How Krupa Udyog collects, uses, stores and deletes your information in the Krupa Udyog mobile application.",
+};
+
 export default function Privacy() {
   return (
     <div className="py-16 px-6 bg-white min-h-screen">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Privacy Policy</h1>
-        <p className="text-gray-400 text-sm mb-10">Last updated: July 2026</p>
+        <p className="text-gray-400 text-sm mb-10">Last updated: September 2026</p>
 
         <div className="prose prose-gray max-w-none space-y-10">
 
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">1. Introduction</h2>
             <p className="text-gray-600 leading-relaxed">
-              Krupa Udyog ("we", "our", or "us") operates the WIndicator mobile application (the "App").
+              Krupa Udyog ("we", "our", or "us") operates the Krupa Udyog mobile application (the "App").
               This Privacy Policy explains how we collect, use, and protect your information when you use our App.
               By using the App, you agree to the collection and use of information in accordance with this policy.
             </p>
@@ -67,7 +75,8 @@ export default function Privacy() {
             <p className="text-gray-600 leading-relaxed">
               We retain your account data and meter readings for as long as your account is active or as needed
               to provide services to your organization. You may request deletion of your account by contacting
-              your organization's administrator or reaching out to us directly.
+              your organization's administrator or emailing us at{" "}
+              <a href="mailto:krupaudyog@gmail.com" className="hover:underline font-medium" style={{ color: "#FF8B3D" }}>krupaudyog@gmail.com</a>.
             </p>
           </section>
 
@@ -87,7 +96,8 @@ export default function Privacy() {
             <p className="text-gray-600 leading-relaxed">
               This App is intended for business use by adults (18+). We do not knowingly collect data
               from anyone under the age of 18. If you believe a minor has provided us with personal
-              information, please contact us immediately.
+              information, please contact us at{" "}
+              <a href="mailto:krupaudyog@gmail.com" className="hover:underline font-medium" style={{ color: "#FF8B3D" }}>krupaudyog@gmail.com</a>.
             </p>
           </section>
 
