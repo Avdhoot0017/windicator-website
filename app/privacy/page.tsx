@@ -10,7 +10,7 @@ export default function Privacy() {
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">1. Introduction</h2>
             <p className="text-gray-600 leading-relaxed">
-              Krupa Udyog ("we", "our", or "us") operates the Krupa Udyog mobile application (the "App").
+              Krupa Udyog ("we", "our", or "us") operates the WIndicator mobile application (the "App").
               This Privacy Policy explains how we collect, use, and protect your information when you use our App.
               By using the App, you agree to the collection and use of information in accordance with this policy.
             </p>
@@ -107,7 +107,7 @@ export default function Privacy() {
 
             <h3 className="font-semibold text-gray-800 mb-2">How to request account deletion:</h3>
             <ul className="space-y-2 text-gray-600 mb-4">
-              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Send an email to <a href="mailto:support@krupaUdyog.com" className="hover:underline font-medium" style={{ color: "#FF8B3D" }}>support@krupaUdyog.com</a> with subject line <strong>"Account Deletion Request"</strong></span></li>
+              <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Send an email to <a href="mailto:krupaudyog@gmail.com" className="hover:underline font-medium" style={{ color: "#FF8B3D" }}>krupaudyog@gmail.com</a> with subject line <strong>"Account Deletion Request"</strong></span></li>
               <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>Include your registered email address in the request</span></li>
               <li className="flex gap-2"><span style={{ color: "#FF8B3D" }}>•</span><span>We will process your request within <strong>7 business days</strong></span></li>
             </ul>
@@ -127,7 +127,7 @@ export default function Privacy() {
 
             <div className="mt-4 p-5 rounded-xl border border-orange-100 bg-orange-50">
               <p className="font-semibold text-gray-900 mb-1">To delete your account:</p>
-              <p className="text-gray-600 text-sm">Email us at <a href="mailto:support@krupaUdyog.com" className="font-medium hover:underline" style={{ color: "#FF8B3D" }}>support@krupaUdyog.com</a> with subject <strong>"Account Deletion Request"</strong> and your registered email. We'll confirm deletion within 7 business days.</p>
+              <p className="text-gray-600 text-sm">Email us at <a href="mailto:krupaudyog@gmail.com" className="font-medium hover:underline" style={{ color: "#FF8B3D" }}>krupaudyog@gmail.com</a> with subject <strong>"Account Deletion Request"</strong> and your registered email. We'll confirm deletion within 7 business days.</p>
             </div>
           </section>
 
@@ -138,7 +138,7 @@ export default function Privacy() {
             </p>
             <div className="mt-4 p-5 rounded-xl border border-gray-100 bg-orange-50">
               <p className="font-semibold text-gray-900">Krupa Udyog</p>
-              <p className="text-gray-600 mt-1">Email: <a href="mailto:support@krupaUdyog.com" className="hover:underline" style={{ color: "#FF8B3D" }}>support@krupaUdyog.com</a></p>
+              <p className="text-gray-600 mt-1">Email: <a href="mailto:krupaudyog@gmail.com" className="hover:underline" style={{ color: "#FF8B3D" }}>krupaudyog@gmail.com</a></p>
             </div>
           </section>
 
